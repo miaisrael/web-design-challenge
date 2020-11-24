@@ -84,4 +84,8 @@ The website must consist of 7 pages total, including:
 
 -Use meaningful glyphicons next to links in the header.
 
--Have visualization navigation on every visualizations page with an active state. See the screenshots below.
+-Have visualization navigation on every visualizations page with an active state. 
+
+
+Copyright
+Trilogy Education Services © 2019. All Rights Reserved.
