@@ -86,6 +86,5 @@ The website must consist of 7 pages total, including:
 
 -Have visualization navigation on every visualizations page with an active state. 
 
-
-Copyright
-Trilogy Education Services © 2019. All Rights Reserved.
+-------------------------------
+Copyright: Trilogy Education Services © 2020. All Rights Reserved.
