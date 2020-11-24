@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Comparison</title>
+  
+  <!---Bootstrap and CSS-->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<!---NAV BAR-->
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="landing.html">Home</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item dropdown active">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Visualizations
+          </a>
+          <div class="dropdown-menu active" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item active" href="viz1.html">Latitude vs. Max Temperature</a>
+            <a class="dropdown-item active" href="viz2.html">Latitude vs. Humidity</a>
+            <a class="dropdown-item active" href="viz3.html">Latitude vs. Cloudiness</a>
+            <a class="dropdown-item active" href="viz4.html">Latitude vs. Wind Speed</a>
+          </div>
+        </li>
+        <li class="nav-item active">
+            <a class="nav-link" href="comparison.html">Comparison</a>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link" href="data.html" tabindex="-1" aria-disabled="true">Data</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  
+  <!-- Main Content -->  
+<body>
+  <br>
+  <h1>Comparison: Latitude vs. X</h1>
+  <br>
+  <hr>
+  <br>
+
+<!--First Row-->
+<div class="row">
+    <!--First Column in this Row-->
+    <div class="col-sm-6 col-md-6 col-lg-4">
+      <div class= "box">
+        <h2>vs. Max Temperature</h2>
+        <!-- Image -->
+        <img src="Images/Fig1.png" class="img-fluid">
+      </div>
+    </div>
+
+
+    <!--Second Column in this Row-->
+    <div class="col-sm-6 col-md-6 col-lg-4">
+      <div class= "box">
+        <h2>vs. Humidity</h2>
+        <!-- Image -->
+        <img src="Images/Fig2.png" class="img-fluid">
+    </div>
+  </div>
+
+<!--Second Row-->
+<div class="row">
+  <!--First Column in this Row-->
+  <div class="col-sm-6 col-md-6 col-lg-4">
+    <div class= "box">
+      <h2>vs. Cloudiness</h2>
+      <!-- Image -->
+      <img src="Images/Fig3.png" class="img-fluid">
+    </div>
+  </div>
+
+  <!--Second Column in this Row-->
+  <div class="col-sm-6 col-md-6 col-lg-4">
+    <div class= "box">
+      <h2>vs. Wind Speed</h2>
+      <!-- Image -->
+      <img src="Images/Fig4.png" class="img-fluid">
+  </div>
+</div>
+  <hr>
+ 
+</body>
+
+</html>
